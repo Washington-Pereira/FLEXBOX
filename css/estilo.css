@@ -4,16 +4,26 @@ header{
     height: 100px;
 }
 .container{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.144);
     display: flex;
-    height: 700px;
+    height: 500px;
+    margin: 5px solid black;
 }
-#quadrado1{
-    background-color: rgb(133, 120, 120);
+.quadrado1{
+    background-color: rgba(27, 17, 17, 0.26);
     display: flex;
-    height: 100px;
-    width: 1400px;
+    flex-direction: row;
 }
-#quadrado2{
-    
+.quadrado2{
+    flex: 1;
+    display: flex;
+}
+.contend{
+    flex: 2;
+    display: flex;
+    align-items: justify-contend;
+}
+.footer{
+    flex: 1;
+    display: flex;
 }
