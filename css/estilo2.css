@@ -3,6 +3,10 @@
     height: 800px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 100px;
+    margin-top: 0%;
+    justify-content: center;
+    align-items: center;
 }
 .linha {
     width: 800px;
@@ -34,14 +38,23 @@
     display: flex;
     flex-direction: row;
 }
-#pag2-1, #pag2-2, #pag2-3 {
-    width: 50px;
-    height: 70px;
-    background-color: brown;
-    flex: 1;
-}
 .diacho {
+    display: flex;
     justify-content: center;
-    flex-direction: row;
-    text-align: center;
+    list-style: none;
+    background-color: #291a21;
+    padding: 30px;
+    margin-bottom: 100px;
+    margin-top: 0%;
+}
+.diacho li {
+    margin: 0 5px;
+}
+
+.diacho li a {
+    color: #5c5357;
+    padding: 15px 50px;
+    text-decoration: none;
+    background-color: #836c73;
+    border-radius: 5px;
 }
