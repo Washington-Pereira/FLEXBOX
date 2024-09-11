@@ -22,8 +22,36 @@ header{
     flex: 2;
     display: flex;
     align-items: justify-contend;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+.add{
+    flex: 1;
+    display:flex;
 }
 .footer{
-    flex: 1;
     display: flex;
+    background-color: rebeccapurple;
+    text-align: flex-end;
+    height: 100px;
+}
+footer{
+    background-color: rgba(13, 146, 57, 0.459);
+    height:100px;
+    
+}
+#mmm{
+    text-align: center;
+}
+.pig{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    flex-direction: row;
+    text-align: center;
+}
+.p1, .p2, .p3 {
+    background-color: aquamarine;
+    height: 40px;
+    width: 70px;
+    flex: 1;
 }
