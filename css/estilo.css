@@ -4,7 +4,7 @@ header{
     height: 100px;
 }
 .pig {
-    background-color: rgb(87, 81, 81);
+    background-color: #291a21;
 }
 .container{
     background-color: rgba(0, 0, 0, 0.144);
@@ -41,6 +41,10 @@ footer{
 }
 #mmm{
     text-align: center;
+    justify-content:center;
+    margin-top:100px;
+    align-items:flex-start;
+    
 }
 .pig{
     display: flex;
@@ -71,6 +75,25 @@ footer{
 .diacho li a {
     color: #ee73a6;
     padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #836c73;
+}
+.diacho2 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-top: 0%;
+}
+.diacho2 li {
+    margin: 0 5px;
+}
+
+.diacho2 li a {
+    color: #ee73a6;
+    padding: 5px 10px;
     text-decoration: none;
     background-color: #836c73;
     border-radius: 5px;

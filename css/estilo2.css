@@ -44,7 +44,7 @@
     list-style: none;
     background-color: #291a21;
     padding: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     margin-top: 0%;
 }
 .diacho li {
@@ -52,9 +52,15 @@
 }
 
 .diacho li a {
-    color: #5c5357;
+    color: #1faa65;
     padding: 15px 50px;
     text-decoration: none;
-    background-color: #836c73;
+    background-color: #c7c7c7;
     border-radius: 5px;
+}
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
